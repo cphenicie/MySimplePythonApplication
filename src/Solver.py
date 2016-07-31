@@ -14,7 +14,7 @@ class Solver:
                     root2 = (-b - disc) / (2 * a)
                     print(root1, root2)
                 else:
-                    print('error')
+                    print('error, discriminant is not real')
 
 
 Solver().calculate()
